@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Peashooter.cs" />
+    <Compile Include="ConcreteZombieFactory.cs" />
+    <Compile Include="ConeZombie.cs" />
+    <Compile Include="RegularZombie.cs" />
+    <Compile Include="ScreenDoorZombie.cs" />
+    <Compile Include="Zombie.cs" />
+    <Compile Include="ZombieFactory.cs" />
+    <Compile Include="BucketZombie.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="README.md" />
+  </ItemGroup>
+
+</Project>
+
